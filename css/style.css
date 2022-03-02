@@ -1,0 +1,22 @@
+.carousel-item {
+    position: relative;
+}
+
+main {
+    margin-top: 4rem;
+}
+
+.slider-text {
+    width: 60%;
+    text-align: center;
+    /* Como centrar en CSS un elemento con position absolute y sin widtth: 100% */
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    /* Como centrar en CSS un elemento con position absolute y sin widtth: 100% */
+    color: #fff;
+    z-index: 500;
+    top: 25%;
+}
